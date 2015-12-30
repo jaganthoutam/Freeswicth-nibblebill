@@ -1,0 +1,16 @@
+<configuration name="nibblebill.conf" description="Nibble Billing">
+  <settings>
+    <param name="odbc-dsn" value="odbc://jagan"/>
+    <param name="db_table" value="accounts"/>
+    <param name="db_column_cash" value="cash"/>
+    <param name="db_column_account" value="id"/>
+    <param name="global_heartbeat" value="60"/>
+    <param name="lowbal_amt" value="0.1"/>
+    <param name="lowbal_action" value="play ding"/>
+    <param name="nobal_amt" value="0"/>
+    <param name="nobal_action" value="hangup"/>
+    <param name="percall_max_amt" value="100"/>
+    <param name="percall_action" value="hangup"/>
+  </settings>
+</configuration>
+
